@@ -1,0 +1,22 @@
+{
+  "name": "express-base",
+  "version": "1.0.0",
+  "description": "base express app",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd src/client && yarn build",
+    "prestart": "npm run build",
+    "start": "cd src/server && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirmaoz/express-base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirmaoz/express-base/issues"
+  },
+  "homepage": "https://github.com/nirmaoz/express-base#readme"
+}
